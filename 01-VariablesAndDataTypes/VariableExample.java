@@ -13,15 +13,3 @@ public class VariableExample {
         System.out.println("Gender: " + gender);
     }
 }
-
-public class ProductInfo {
-    public static void main(String[] args) {
-        String productName = "Wireless Mouse";
-        double price = 899.50;
-        boolean isAvailable = true;
-
-        System.out.println("Product: " + productName);
-        System.out.println("Price: ₹" + price);
-        System.out.println("Available: " + isAvailable);
-    }
-}
