@@ -9,3 +9,6 @@ public class DiscountCheck {
         System.out.println("Final price after discount: ₹" + finalPrice);
     }
 }
+
+//Output
+//Final price after discount: ₹960.0
