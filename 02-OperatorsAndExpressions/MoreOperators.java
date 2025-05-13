@@ -5,14 +5,14 @@ public class MoreOperators {
 
         // Logical
         boolean result = (x < y) && (x > 0);
-        System.out.println("Logical AND result: " + result);
+        System.out.println("Logical AND result: " + result);  // true
 
         // Assignment
         x += 3;  // x = x + 3
-        System.out.println("After x += 3, x = " + x);
+        System.out.println("After x += 3, x = " + x);         // 8
 
         // Ternary
         int max = (x > y) ? x : y;
-        System.out.println("Max value: " + max);
+        System.out.println("Max value: " + max);              // 10
     }
 }
